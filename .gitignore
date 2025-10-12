@@ -234,6 +234,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+
+.vscode
+
 # Ignore data folders
 data/
 Data/

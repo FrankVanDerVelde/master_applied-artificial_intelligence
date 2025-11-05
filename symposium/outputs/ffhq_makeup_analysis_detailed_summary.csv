@@ -1,2 +1,2 @@
-dataset,total_people_analyzed,total_predictions,mean_delta,std_delta,median_delta,min_delta,max_delta,n_younger,n_older,n_unchanged,p_younger,p_older,p_unchanged,mean_delta_per_person,std_delta_per_person,n_people_younger,n_people_older,p_people_younger,p_people_older
-FFHQ,100,500,-9.162986663579941,16.127106706342424,-2.8777589797973633,-57.836570739746094,28.801605224609375,315,185,0,63.0,37.0,0.0,-9.162986663579941,15.54630722702047,61,39,61.0,39.0
+dataset,model_mae,total_people_analyzed,total_predictions,mean_delta,std_delta,median_delta,min_delta,max_delta,n_younger,n_older,n_unchanged,p_younger,p_older,p_unchanged,mean_delta_per_person,std_delta_per_person,n_people_younger,n_people_older,p_people_younger,p_people_older
+FFHQ,5.206747374534607,1250,6250,-6.082589650230408,14.350427184768405,-2.3861875534057617,-72.94719457626343,44.35983467102051,2603,1005,2642,41.648,16.08,42.272,-6.082589650230408,13.229448364320588,523,181,41.839999999999996,14.48

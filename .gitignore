@@ -241,5 +241,6 @@ Temporary Items
 data/
 Data/
 datasets/
+models/
 
 chroma_store

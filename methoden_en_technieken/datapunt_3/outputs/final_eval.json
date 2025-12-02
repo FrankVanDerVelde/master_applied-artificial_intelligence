@@ -1,0 +1,37 @@
+{
+  "count": 256,
+  "score_word_chrFpp": 48.88660867874543,
+  "score_bpe_chrFpp": 47.95535696217399,
+  "samples": [
+    {
+      "en": "Light the candle.",
+      "ref_nl": "Steek de kaars aan.",
+      "hyp_word": "waarom zijn kaars",
+      "hyp_bpe": "licht heeft de kaars gedaan"
+    },
+    {
+      "en": "Let's pretend we're aliens.",
+      "ref_nl": "Laten we doen alsof we buitenaardse wezens zijn.",
+      "hyp_word": "laten we doen alsof we aliens zijn",
+      "hyp_bpe": "laten we doen alsof we aliens zijn"
+    },
+    {
+      "en": "The soup is too salty.",
+      "ref_nl": "De soep is te zout.",
+      "hyp_word": "de soep is te zout",
+      "hyp_bpe": "de soep is te zout"
+    },
+    {
+      "en": "Tom is singing in French.",
+      "ref_nl": "Tom zingt in het Frans.",
+      "hyp_word": "tom zingt in het frans",
+      "hyp_bpe": "tom zingt in frans"
+    },
+    {
+      "en": "He's afraid of the sea.",
+      "ref_nl": "Hij is bang van de zee.",
+      "hyp_word": "hij is bang voor de zee",
+      "hyp_bpe": "hij is bang voor de zee"
+    }
+  ]
+}

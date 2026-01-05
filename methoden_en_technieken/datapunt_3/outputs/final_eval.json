@@ -1,37 +1,127 @@
 {
-  "count": 256,
-  "score_word_chrFpp": 48.88660867874543,
-  "score_bpe_chrFpp": 47.95535696217399,
+  "count": 1000,
+  "chrFpp_word": 59.34693346146438,
+  "chrFpp_bpe": 58.579790361250204,
   "samples": [
     {
       "en": "Light the candle.",
-      "ref_nl": "Steek de kaars aan.",
-      "hyp_word": "waarom zijn kaars",
-      "hyp_bpe": "licht heeft de kaars gedaan"
+      "ref_raw": "Steek de kaars aan.",
+      "ref_norm": "steek de kaars aan",
+      "word_raw": "licht is de kaars",
+      "word_norm": "licht is de kaars",
+      "bpe_raw": "De kaars heeft de kaars.",
+      "bpe_norm": "de kaars heeft de kaars",
+      "len_ref": 4,
+      "len_word": 4,
+      "len_bpe": 5
     },
     {
       "en": "Let's pretend we're aliens.",
-      "ref_nl": "Laten we doen alsof we buitenaardse wezens zijn.",
-      "hyp_word": "laten we doen alsof we aliens zijn",
-      "hyp_bpe": "laten we doen alsof we aliens zijn"
+      "ref_raw": "Laten we doen alsof we buitenaardse wezens zijn.",
+      "ref_norm": "laten we doen alsof we buitenaardse wezens zijn",
+      "word_raw": "laten we doen alsof we aliens zijn",
+      "word_norm": "laten we doen alsof we aliens zijn",
+      "bpe_raw": "Laten we doen alsof we aliens zijn.",
+      "bpe_norm": "laten we doen alsof we aliens zijn",
+      "len_ref": 8,
+      "len_word": 7,
+      "len_bpe": 7
     },
     {
       "en": "The soup is too salty.",
-      "ref_nl": "De soep is te zout.",
-      "hyp_word": "de soep is te zout",
-      "hyp_bpe": "de soep is te zout"
+      "ref_raw": "De soep is te zout.",
+      "ref_norm": "de soep is te zout",
+      "word_raw": "de soep is te zout",
+      "word_norm": "de soep is te zout",
+      "bpe_raw": "De soep is te melk.",
+      "bpe_norm": "de soep is te melk",
+      "len_ref": 5,
+      "len_word": 5,
+      "len_bpe": 5
     },
     {
       "en": "Tom is singing in French.",
-      "ref_nl": "Tom zingt in het Frans.",
-      "hyp_word": "tom zingt in het frans",
-      "hyp_bpe": "tom zingt in frans"
+      "ref_raw": "Tom zingt in het Frans.",
+      "ref_norm": "tom zingt in het frans",
+      "word_raw": "tom zingt in het frans",
+      "word_norm": "tom zingt in het frans",
+      "bpe_raw": "Tom zingt in het Frans.",
+      "bpe_norm": "tom zingt in het frans",
+      "len_ref": 5,
+      "len_word": 5,
+      "len_bpe": 5
     },
     {
       "en": "He's afraid of the sea.",
-      "ref_nl": "Hij is bang van de zee.",
-      "hyp_word": "hij is bang voor de zee",
-      "hyp_bpe": "hij is bang voor de zee"
+      "ref_raw": "Hij is bang van de zee.",
+      "ref_norm": "hij is bang van de zee",
+      "word_raw": "hij is bang voor de zee",
+      "word_norm": "hij is bang voor de zee",
+      "bpe_raw": "Hij is bang voor zee.",
+      "bpe_norm": "hij is bang voor zee",
+      "len_ref": 6,
+      "len_word": 6,
+      "len_bpe": 5
+    },
+    {
+      "en": "How silly of me!",
+      "ref_raw": "Wat stom van me!",
+      "ref_norm": "wat stom van me",
+      "word_raw": "hoe dom is me",
+      "word_norm": "hoe dom is me",
+      "bpe_raw": "Hoe dom van mij!",
+      "bpe_norm": "hoe dom van mij",
+      "len_ref": 4,
+      "len_word": 4,
+      "len_bpe": 4
+    },
+    {
+      "en": "He was too drunk to drive home.",
+      "ref_raw": "Hij was te dronken om naar huis te rijden.",
+      "ref_norm": "hij was te dronken om naar huis te rijden",
+      "word_raw": "hij was te dronken om naar huis te rijden",
+      "word_norm": "hij was te dronken om naar huis te rijden",
+      "bpe_raw": "Hij was te dronken om naar huis te rijden.",
+      "bpe_norm": "hij was te dronken om naar huis te rijden",
+      "len_ref": 9,
+      "len_word": 9,
+      "len_bpe": 9
+    },
+    {
+      "en": "I threw away my shoes.",
+      "ref_raw": "Ik heb mijn schoenen weggegooid.",
+      "ref_norm": "ik heb mijn schoenen weggegooid",
+      "word_raw": "ik heb mijn schoenen meegebracht",
+      "word_norm": "ik heb mijn schoenen meegebracht",
+      "bpe_raw": "Ik gooide mijn schoenen weg.",
+      "bpe_norm": "ik gooide mijn schoenen weg",
+      "len_ref": 5,
+      "len_word": 5,
+      "len_bpe": 5
+    },
+    {
+      "en": "Who are you angry with?",
+      "ref_raw": "Op wie ben je boos?",
+      "ref_norm": "op wie ben je boos",
+      "word_raw": "wie zijn jullie boos",
+      "word_norm": "wie zijn jullie boos",
+      "bpe_raw": "Op wie ben je kwaad?",
+      "bpe_norm": "op wie ben je kwaad",
+      "len_ref": 5,
+      "len_word": 4,
+      "len_bpe": 5
+    },
+    {
+      "en": "This is dangerous.",
+      "ref_raw": "Dit is gevaarlijk.",
+      "ref_norm": "dit is gevaarlijk",
+      "word_raw": "dit is gevaarlijk",
+      "word_norm": "dit is gevaarlijk",
+      "bpe_raw": "Dit is gevaarlijk.",
+      "bpe_norm": "dit is gevaarlijk",
+      "len_ref": 3,
+      "len_word": 3,
+      "len_bpe": 3
     }
   ]
 }

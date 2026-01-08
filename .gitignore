@@ -244,3 +244,5 @@ datasets/
 models/
 
 chroma_store
+
+data_2b.pkl

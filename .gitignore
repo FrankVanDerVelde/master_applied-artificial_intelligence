@@ -246,3 +246,5 @@ models/
 chroma_store
 
 data_2b.pkl
+
+data_2b_new.pkl
